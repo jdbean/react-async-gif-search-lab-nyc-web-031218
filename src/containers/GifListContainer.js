@@ -24,7 +24,7 @@ class GifListContainer extends React.Component {
 
   render() {
     return(
-      <div className='GifListContainer'>
+      <div>
         < GifSearch newSearch={this.newSearch} />
         < GifList currentGifs={this.state.currentGifs} />
       </div>
